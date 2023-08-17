@@ -3,3 +3,64 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background: url(Imagens/fundo.jpg);
+}
+
+header{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+main{
+    width: 67vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 10px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.068);
+}
+
+.img-antecedentes{
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-asg{
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 24px;
+}
+
+main strong:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main h4{
+    margin: 10px 0px;
+}
+
+main .nota{
+    margin-top: 10px;
+}
+
+main hr{
+    margin: 10px 0px;
+}
+
