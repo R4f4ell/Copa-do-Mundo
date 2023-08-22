@@ -64,3 +64,74 @@ main hr{
     margin: 10px 0px;
 }
 
+
+
+
+
+
+.tabelaum{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+} 
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+table thead th{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #EAECF0;
+    font-size: 16px;
+}
+
+table tfoot tr{
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.primeiro{
+    background-color: #FFD700;
+}
+
+.vice{
+    background-color: #C0C0C0;
+}
+
+.terceiro{
+    background-color: #D2B48C;
+}
+
+
+.tabelaum .edicoes{
+    margin: 20px;
+    width: 80%;
+}
+
+.edicoes a{
+    text-decoration: none;
+    color: rgb(107, 107, 243);
+}
+
+.edicoes a:hover{
+    text-decoration: underline;
+}
+
+.edicoes p, a{
+    text-align: center;
+}
+
+.edicoes img{
+    width: 50px;
+    height: 26px;
+}
